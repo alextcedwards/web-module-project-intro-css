@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.5rem;
+    font-family: "Roboto Mono", sans-serif;
+    line-height: 1.5;
+  }
+  div {
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /*Nav Bar*/
+  nav {
+    padding-left: 9%;
+    padding-top: 20px;
+  }
+  nav a {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0.5% 2%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 10% 0 10%;
+  }
+  .visit {
+    background: #ff764e;
+  }
+  nav a:hover {
+    border: solid 1px;
+  }
+  .visit:hover {
+    background: white;
+    border-color: #ff764e;
+    color: #ff764e;
+  }
+  .park {
+    background-color: #5ed3eb;
+  }
+  .park:hover {
+    background: white;
+    border-color: #5ed3eb;
+    color: #5ed3eb;
+  }
+  .involved {
+    background-color: #ffcd69;
+  }
+  .involved:hover {
+    background: white;
+    border-color: #ffcd69;
+    color: #ffcd69;
+  }
+  
+  /*Top*/
+  .top {
+    display: inline-block;
+    width: 100%;
+    padding-left: 10%;
+  }
+  .topleft {
+    display: inline-block;
+    width: 30%;
+  }
+  .topright {
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+  }
+  .topright p {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .top img {
+    border-radius: 50%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 7rem;
+    font-family: "Chelsea Market", cursive;
+  }
+  
+  .textcontainer {
+    background: #ddb9a3;
+    width: 90%;
+    padding: 10px;
+  }
+  .textcontainer p {
+    color: white;
+  }
+  
+  .campfire {
+    width: 20%;
+    text-align: center;
+  }
+  .campfire img {
+    width: 50%;
+  }
+  .campervan {
+    width: 20%;
+    text-align: center;
+  }
+  .campervan img {
+    width: 50%;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  
+  .widephoto {
+    background-image: url("assets/footer_img.jpg");
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  footer {
+    background: #f9e7dc;
+    padding: 2%;
+  }
+  
