@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5rem;
+  font-family: "Roboto Mono", sans-serif;
+  line-height: 1.5;
+}
+div {
+  padding: 4% 0;
+  width: 90%;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 8rem;
+  text-align: center;
+}
+h2 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 4rem;
+}
+h3 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+/*Nav Bar*/
+nav {
+  padding-left: 9%;
+  padding-top: 20px;
+}
+nav a {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.5% 2%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 0 10% 0 10%;
+}
+.visit {
+  background: #ff764e;
+}
+nav a:hover {
+  border: solid 1px;
+}
+.visit:hover {
+  background: white;
+  border-color: #ff764e;
+  color: #ff764e;
+}
+.park {
+  background-color: #5ed3eb;
+}
+.park:hover {
+  background: white;
+  border-color: #5ed3eb;
+  color: #5ed3eb;
+}
+.involved {
+  background-color: #ffcd69;
+}
+.involved:hover {
+  background: white;
+  border-color: #ffcd69;
+  color: #ffcd69;
+}
+.topcontent img {
+  width: 15%;
+}
+.bottomcontent img {
+  width: 15%;
+}
+.footerphoto {
+  background-image: url("assets/involvefooter.jpeg");
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+footer {
+  background: #f9e7dc;
+  padding: 2%;
+}
